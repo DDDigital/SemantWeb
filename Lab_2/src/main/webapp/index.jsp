@@ -21,5 +21,13 @@
             <input type="text" name="Phone"/><br>
             <input type="submit" value="Надіслати">
         </form>
+            
+        <h2>Create resource</h2>
+
+        <form action="<%=request.getContextPath()%>/resource" method="post">
+        <input type="text" name="given" placeholder="enter given name"/> <br> 
+        <input type="text" name="family" placeholder="enter family name"/> <br>
+        <input type="submit" value="Ok"/>  
+        </form>
     </body>
 </html>
